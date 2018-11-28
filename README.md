@@ -6,31 +6,31 @@
 
 ## Includes 2 files for the p2p network in '/app':
 
-Index::
+#### Index
 Manages the network's p2p connections, API
 
-P2P-server::
+#### P2P-server
 Creates new P2P network, responsible for broadcasting the new chain/transaction between all parties
 
 
 ## Includes 6 files for the blockchain app in '/src':
 
-Wallet::
+#### Wallet::
 Creates new wallet, adds new transactions by wallet owner and signs them
 
-MemPool::
+#### MemPool::
 The blockchain network's pending transactions, waiting to be mined by miners
 
-Transaction::
+#### Transaction::
 Creates new transaction
 
-Block::
+#### Block::
 Creates new block
 
-Blockchain::
+#### Blockchain::
 Creates the new blockchain
 
-Merkle::
+#### Merkle::
 Creates a new Merkle tree for a block
 
 
@@ -43,4 +43,6 @@ To open 3rd node, enter $ HTTP_PORT=3003 P2P_PORT=5003 PEERS=ws://localhost:5001
 And so on ...
 
 ![](fourSocketsStart.gif)
+
+#### Full Example
 ![](fullProcess.gif)
