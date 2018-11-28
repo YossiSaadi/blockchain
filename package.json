@@ -1,0 +1,28 @@
+{
+  "name": "blockchain_yossi",
+  "version": "1.0.0",
+  "description": "Made as an assignment for course 10354 \"Blockchain Vision and Practice\", Afeka",
+  "main": "index.js",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.3",
+    "crypto-js": "^3.1.9-1",
+    "elliptic": "^6.4.1",
+    "express": "^4.16.4",
+    "ws": "^6.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YossiSaadi/blockchain.git"
+  },
+  "author": "Yossi Saadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YossiSaadi/blockchain/issues"
+  },
+  "homepage": "https://github.com/YossiSaadi/blockchain#readme"
+}
